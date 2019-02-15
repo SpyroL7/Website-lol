@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+h1 {
+    color: blueviolet;
+}
+
+p {
+    background-color: aquamarine;
+    color: cornflowerblue;
+    border-radius: 2000px;
+    padding: 14px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: dimgray;
+    background-image: url('https://media1.tenor.com/images/2e92887462db1626e7c1007c857ba548/tenor.gif?itemid=5870082');
+    background-size: cover;
+    padding: 20px;
+}
+
+#heading{
+    background-color: aquamarine;
+    border-radius: 2000px;
+    padding: 25px;
+}
+
+#button {
+    font-family: "Roboto", sans-serif;
+    background-color: #00ffff;
+    border: dashed;
+    color: blue;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 2000px;
+}
+
+#button:hover{
+    background-color:aquamarine;
+}
+
+.wrapperC {
+    text-align:center;
+}
