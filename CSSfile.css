@@ -37,11 +37,11 @@ body {
     padding: 25px;
 }
 
-#button {
+.button {
     font-family: "Roboto", sans-serif;
-    background-color: #00ffff;
+    background-color: #4277f4;
     border: dashed;
-    color: blue;
+    color: white;
     padding: 10px 20px;
     text-align: center;
     display: inline-block;
@@ -49,12 +49,66 @@ body {
     border-radius: 2000px;
 }
 
-#button:hover {
+.button:hover {
     background-color: aquamarine;
-    transition: 0.6s;
-    transition-duration: 0.6s;
+    transition: 0.3s;
+    transition-duration: 0.3s;
     }
 
 .wrapperC {
     text-align:center;
+}
+
+.navbar {
+  overflow: hidden; 
+  background-color: #224; 
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; 
+  color: white; 
+  text-align: center;
+  padding: 14px 20px; 
+  text-decoration: none; /* Remove underline */
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right; /* Float a link to the right */
+}
+
+
+.navbar a:hover {
+  background-color: #557; 
+  color: black; 
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.row{
+	display: flex;
+	flex-wrap:wrap;
+}
+
+.Wassup{
+	flex: 40%;
+	background-color: #4188f4;
+	padding: 30px;
+}
+
+.Me{
+	flex: 60%;
+	background-color: #4144f4;
+	color: white;
+	padding: 30px;
+}
+
+footer{
+	color: white;
+	padding: 10px;
+	background-color: #224;
 }
